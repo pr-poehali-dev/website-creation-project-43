@@ -14,6 +14,30 @@ const Index = () => {
       date: "16 октября 2025",
       category: "Эволюционная биология",
       readTime: "5 мин"
+    },
+    {
+      id: 2,
+      title: "Фотосинтез в волосяных фолликулах: новый механизм энергообмена у млекопитающих",
+      excerpt: "Группа исследователей из Токийского университета обнаружила хлорофилл-подобные структуры в волосяных луковицах приматов, способные к ограниченному фотосинтезу.",
+      date: "8 октября 2025",
+      category: "Молекулярная биология",
+      readTime: "7 мин"
+    },
+    {
+      id: 3,
+      title: "Эхолокация у Homo sapiens: рудиментарные способности современного человека",
+      excerpt: "Нейробиологи из Стэнфорда подтвердили наличие атрофированных структур эхолокации в височных долях мозга, унаследованных от древних предков.",
+      date: "2 октября 2025",
+      category: "Нейробиология",
+      readTime: "6 мин"
+    },
+    {
+      id: 4,
+      title: "Магнитная навигация: криптохром-белки в сетчатке глаза человека",
+      excerpt: "Команда Макса Планка доказала функциональность магниторецепторных белков у людей, ранее считавшихся исключительной особенностью птиц.",
+      date: "25 сентября 2025",
+      category: "Сенсорная физиология",
+      readTime: "8 мин"
     }
   ];
 
@@ -23,12 +47,17 @@ const Index = () => {
         <div className="container mx-auto px-4 py-6 max-w-6xl">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-4xl font-bold text-primary mb-1" style={{ fontFamily: 'Georgia, serif' }}>
-                Научный блог
-              </h1>
-              <p className="text-muted-foreground font-light" style={{ fontFamily: 'Roboto, sans-serif' }}>
-                Исследования и научные публикации
-              </p>
+              <div>
+                <h1 className="text-4xl font-bold text-primary mb-1" style={{ fontFamily: 'Georgia, serif' }}>
+                  IJEB
+                </h1>
+                <p className="text-xs text-muted-foreground font-light mb-1" style={{ fontFamily: 'Roboto, sans-serif' }}>
+                  International Journal of Evolutionary Biology
+                </p>
+                <p className="text-xs text-muted-foreground font-light" style={{ fontFamily: 'Roboto, sans-serif' }}>
+                  ISSN 1687-8477 • Impact Factor: 3.847
+                </p>
+              </div>
             </div>
             <nav className="hidden md:flex gap-6">
               <a href="#" className="text-foreground hover:text-accent transition-colors font-medium">
@@ -133,7 +162,7 @@ const Index = () => {
           </div>
           <div className="pt-6 border-t border-border">
             <p className="text-sm text-muted-foreground text-center">
-              © 2025 Научный блог. Все права защищены.
+              © 2025 International Journal of Evolutionary Biology • ISSN 1687-8477 • DOI: 10.1155/ijeb
             </p>
           </div>
         </div>

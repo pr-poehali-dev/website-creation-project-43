@@ -17,9 +17,14 @@ const Article = () => {
             <Icon name="ArrowLeft" size={20} className="mr-2" />
             Все статьи
           </Button>
-          <h1 className="text-4xl font-bold text-primary" style={{ fontFamily: 'Georgia, serif' }}>
-            Научный блог
-          </h1>
+          <div>
+            <h1 className="text-3xl font-bold text-primary mb-1" style={{ fontFamily: 'Georgia, serif' }}>
+              IJEB
+            </h1>
+            <p className="text-xs text-muted-foreground font-light" style={{ fontFamily: 'Roboto, sans-serif' }}>
+              International Journal of Evolutionary Biology
+            </p>
+          </div>
         </div>
       </header>
 
@@ -123,7 +128,7 @@ const Article = () => {
       <footer className="border-t border-border mt-16 py-8 bg-white">
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="flex items-center justify-between text-sm text-muted-foreground">
-            <p>© 2025 Научный блог</p>
+            <p>© 2025 International Journal of Evolutionary Biology</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-primary transition-colors">О проекте</a>
               <a href="#" className="hover:text-primary transition-colors">Контакты</a>
