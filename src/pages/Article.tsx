@@ -102,6 +102,17 @@ const Article = () => {
               </p>
             </div>
 
+            <div className="mt-12 flex justify-center">
+              <Button 
+                size="lg"
+                className="bg-accent hover:bg-accent/90 text-white font-medium px-8 py-6 text-lg"
+                onClick={() => window.open('https://ru.wikipedia.org/wiki/Эволюция_человека', '_blank')}
+              >
+                <Icon name="Search" size={20} className="mr-2" />
+                Проверить информацию на правдивость
+              </Button>
+            </div>
+
             <div className="mt-8 bg-primary text-primary-foreground p-6 rounded-sm">
               <h3 className="font-bold text-lg mb-3 flex items-center gap-2">
                 <Icon name="CheckCircle2" size={20} />
